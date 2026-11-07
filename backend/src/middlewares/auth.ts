@@ -1,4 +1,4 @@
-// src/middlewares/auth.ts — ด่านตรวจสิทธิ์ (middleware อีก 2 ตัว ต่อจากสัปดาห์ที่ 5)
+// src/middlewares/auth.ts — ด่านตรวจสิทธิ์ 
 //   authenticate  = "คุณคือใคร"      ไม่มี/บัตรปลอม/หมดอายุ → 401
 //   authorize     = "คุณทำสิ่งนี้ได้ไหม" บทบาทไม่ตรง        → 403
 import type { RequestHandler } from "express";

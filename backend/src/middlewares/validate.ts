@@ -1,4 +1,4 @@
-// src/middlewares/validate.ts — ตัวตรวจข้อมูลรวมศูนย์ (แบบเดียวกับสไลด์สัปดาห์ที่ 8)
+// src/middlewares/validate.ts — ตัวตรวจข้อมูลรวมศูนย์ 
 // route ไม่ต้องเขียน if ตรวจข้อมูลเอง — ผ่านด่านนี้แล้วข้อมูลจะอยู่ใน res.locals.valid
 import type { RequestHandler } from "express";
 import type { ZodError, ZodType } from "zod";

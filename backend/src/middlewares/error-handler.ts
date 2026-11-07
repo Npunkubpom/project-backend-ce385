@@ -1,4 +1,4 @@
-// src/middlewares/error-handler.ts — ตัวดักข้อผิดพลาดรวมศูนย์ (แบบสไลด์สัปดาห์ที่ 8)
+// src/middlewares/error-handler.ts — ตัวดักข้อผิดพลาดรวมศูนย์
 // ในระบบนี้มี "ที่เดียว" ที่แปลง error เป็น HTTP response
 import type { ErrorRequestHandler, RequestHandler } from "express";
 import { ZodError } from "zod";
